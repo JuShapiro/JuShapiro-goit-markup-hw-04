@@ -194,7 +194,19 @@ header {
 .advantages {
     padding: 120px 0;
 }
+.adv-icons-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background:  #F4F4FD;
 
+
+}
 .adv-list {
     display: flex;
     gap: 24px;
@@ -206,7 +218,6 @@ header {
 
 .adv-list-item-title {
     color: #2e2f42;
-
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -216,9 +227,7 @@ header {
 
 .adv-text {
     color: #434455;
-
     font-size: 16px;
-
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -321,7 +330,16 @@ header {
 .footer {
 
     background: #2e2f42;
-  padding: 100px 0;
+    padding: 100px 0;
+}
+.container footer{
+    display: flex;
+    align-items: baseline;
+}
+.container-footer{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin-right: 120px;
 }
 .footer-logo{
     display: inline-block;
@@ -339,4 +357,38 @@ header {
 
 .logo-light {
     color: #f4f4fd;
+}
+
+.footer-title{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+}
+.social-media-footer-list{
+    display: flex;
+    gap: 16px;
+}
+.social-media-footer-item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px; 
+}
+.footer-icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    height: 100px;
+}
+.footer-icon{
+    width: 24px;
+    height: 24px;
 }
