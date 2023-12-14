@@ -55,6 +55,9 @@ address {
 /* header */
 header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08); ;
 }
 
 .header-container {
@@ -112,6 +115,7 @@ header {
 }
 .header-link.studio{
     color: #404BBF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -136,6 +140,7 @@ header {
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hero page */
@@ -143,12 +148,13 @@ header {
     background-color: #2e2f42;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 1440px;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -313,6 +319,9 @@ header {
 .icons-link:focus{
     background-color: #404BBF; 
 }
+.team-icons{
+    fill: #f4f4fd ;
+}
 
 /* section portfolio */
 .portfolio{
@@ -362,6 +371,7 @@ header {
     padding: 40px 32px;
     width: 100%;
     height: 100%;
+    top: 0;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -455,10 +465,11 @@ margin-right: 120px;
 .footer-icon{
     width: 24px;
     height: 24px;
+    fill: #f4f4fd 
 }
 .footer-icon-link:hover,
 .footer-icon-link:focus{
-background-color: #31D0AA;
+    background-color: #31D0AA;
 }
 
 
