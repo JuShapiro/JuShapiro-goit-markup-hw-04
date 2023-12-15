@@ -80,7 +80,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     margin-right: 76px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-dark {
@@ -102,7 +102,7 @@ header {
     padding: 24px 0;
     display: block;
     position: relative;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link.studio::after{
     position: absolute;
@@ -113,10 +113,10 @@ header {
     background: #404BBF;
     left: 0;
     bottom: -1px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link.studio{
     color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -135,13 +135,12 @@ header {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hero page */
